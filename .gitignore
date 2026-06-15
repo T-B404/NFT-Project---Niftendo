@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+config.env
+*.env
+!*.env.example
+
+# Next.js
+.next/
+out/
+
+# Hardhat / Solidity
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# ML model artifacts (add manually if needed)
+*.pth
+model/

@@ -1,0 +1,23 @@
+.like{
+    display: flex;
+    align-items: flex-start;
+}
+
+.like_box{
+    border: 3px solid var(--icons-color);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.like_box_img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
