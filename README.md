@@ -1,3 +1,5 @@
+**Live Demo:** https://niftendo-nine.vercel.app
+
 # NFT Project — Niftendo
 
 > A full-stack NFT marketplace platform combining Web3 smart contracts, a modern React frontend, REST APIs, live market analytics, and machine-learning price forecasting.
