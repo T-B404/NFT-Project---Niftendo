@@ -7,7 +7,7 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "./UploadNFT.module.css";
-import formStyle from "../AccountPage/Form/Form.module.css";
+import formStyle from "../accountPage/Form/Form.module.css";
 import images from "../img";
 import { Button } from "../components/componentindex.js";
 import { DropZone } from "../UploadNFT/UploadNFTIndex.js";
