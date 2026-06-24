@@ -18,9 +18,10 @@ const Footer = () => {
             <div className={Style.brandname}>Niftendo</div>
           </div>
           
-          <p>The world’s first and largest digital marketplace for crypto
-            collectibles and non-fungible tokens (NFTs). Buy, sell, and discover
-            exclusive digital items.</p>
+          <p>
+            Niftendo is your marketplace to discover, collect, and sell
+            extraordinary NFTs. Buy, sell, and explore exclusive digital items.
+          </p>
 
           <div className={Style.footer_social}>
             <a href='#'><TiSocialFacebook/></a>
@@ -49,8 +50,10 @@ const Footer = () => {
           </div>
 
           <div className={Style.subscribe_box_info}>
-            <p>Discover, collect, and sell extraordinary NFTs OpenSea is the
-                world first and largest NFT marketplace</p>
+            <p>
+              Discover, collect, and sell extraordinary NFTs on Niftendo — your
+              digital marketplace for unique collectibles.
+            </p>
           </div>
         </div>
       </div>

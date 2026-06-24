@@ -24,6 +24,23 @@
     gap:2rem
 }
 
+@media screen and (max-width: 48rem) {
+    .audioLive_box{
+        width: 92%;
+        grid-template-columns: 1fr;
+        padding-block: 2rem 4rem;
+    }
+
+    .audioLive_box_left{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .audioLive_box_right{
+        gap: 1.5rem;
+    }
+}
+
 @media screen and (min-device-width:377px) and (max-device-width:425px){
     .audioLive_box{
         width: 90%;

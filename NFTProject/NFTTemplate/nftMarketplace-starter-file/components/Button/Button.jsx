@@ -3,10 +3,14 @@ import React from 'react'
 // INTERMAL IMPORT
 import Style from './Button.module.css'
 
-const Button = ({btnName,handleClick}) => {
+const Button = ({ btnName, handleClick = () => {} }) => {
   return (
     <div className={Style.box}>
-      <button className={Style.button} onClick={()=>handleClick()}>
+      <button
+        type="button"
+        className={Style.button}
+        onClick={handleClick}
+      >
         {btnName}
       </button>
     </div>

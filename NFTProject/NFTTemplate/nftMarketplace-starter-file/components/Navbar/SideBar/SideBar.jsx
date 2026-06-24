@@ -95,8 +95,11 @@ const SideBar = ({setOpenSideMenu}) => {
     <div className={Style.sideBar}>
       <GrClose className={Style.sideBar_closeBtn} onClick={()=>closeSideBar()}/>
       <div className={Style.sideBar_box}>
-        <Image src={images.logo} alt={'logo'} height={150} width={150}/>
-        <p>Discover all about NFT and share your story</p>
+        <div className={Style.sideBar_logo}>
+          <Image src={images.newlogo} alt='Niftendo' height={37} width={37} />
+          <span className={Style.sideBar_brandname}>Niftendo</span>
+        </div>
+        <p>Discover, collect, and sell NFTs on Niftendo.</p>
         <div className={Style.sideBar_social}>
           <a href='#'><TiSocialFacebook/></a>
           <a href='#'><TiSocialLinkedin/></a>

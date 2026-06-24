@@ -83,6 +83,39 @@
     gap: .5rem;
 }
 
+@media screen and (max-width: 48rem) {
+    .filter_box{
+        width: 92%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .filter_box_left{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .filter_box_left button{
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    .filter_box_items{
+        width: 92%;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .filter_box_right_box{
+        justify-content: center;
+        padding: 0.75rem 1.25rem;
+    }
+}
+
 @media screen and (min-device-width:320px) and (max-device-width:375px){
     .filter_box{
         width:90%;

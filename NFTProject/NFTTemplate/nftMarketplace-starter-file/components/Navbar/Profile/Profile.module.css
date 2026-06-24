@@ -1,41 +1,48 @@
 .profile{
     position: absolute;
-    padding: 2rem .5rem;
+    right: 0;
+    top: calc(100% + 0.75rem);
+    padding: 1.25rem 0.5rem;
     box-shadow: var(--box-shadow);
     font-size: 1rem;
-    width: 20rem;
+    width: min(20rem, calc(100vw - 2rem));
     border-radius: 1rem;
-
-    left: -17rem;
-    top: 4.5rem;
     z-index: 22222222;
     background-color: var(--main-bg-color);
 }
 
 .profile_account{
     display: flex;
-    align-items: flex-start;
-    gap: 2rem;
-    padding: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
 }
 
 .profile_account_img{
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .profile_account_info{
-    line-height: 0.3rem;
+    line-height: 1.4;
+    min-width: 0;
 }
 
 .profile_account_info p{
     font-weight: 600;
+    margin: 0 0 0.25rem;
+}
+
+.profile_account_info small{
+    font-size: 0.8rem;
+    opacity: 0.75;
 }
 
 .profile_menu_one_item{
     display: flex;
     align-items: center;
-    gap: 2rem;
-    padding: 0rem 1.5rem;
+    gap: 1rem;
+    padding: 0.75rem 1.25rem;
     transition: all .3s ease-in;
 }
 
@@ -43,4 +50,14 @@
     background-color: var(--icons-color);
     color: var(--shadow-dark-color);
     border-radius: .3rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .profile {
+        position: fixed;
+        right: 1rem;
+        left: 1rem;
+        top: 4.75rem;
+        width: auto;
+    }
 }

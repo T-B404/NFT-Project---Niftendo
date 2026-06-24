@@ -9,7 +9,20 @@
 
 .title_box h2{
     font-size: 3rem;
-    line-height: 0;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 48rem) {
+    .title_box{
+        width: 92%;
+    }
+    .title_box h2{
+        font-size: 1.75rem;
+    }
+
+    .title_box p{
+        line-height: 1.5;
+    }
 }
 
 @media screen and (min-device-width:320px) and (max-device-width:425px){

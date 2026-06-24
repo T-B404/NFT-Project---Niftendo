@@ -1,0 +1,37 @@
+/* Shared mobile layout fixes */
+
+@media screen and (max-width: 48rem) {
+  .navbar_container,
+  .heroSection,
+  .service,
+  .title_box,
+  .box_category,
+  .NFTCard,
+  .audioLive_box,
+  .followerTab_box,
+  .collection_box,
+  .filter_box,
+  .filter_box_items,
+  .bigNFTSlider_box,
+  .slider,
+  .brand,
+  .video,
+  .subscribe,
+  .footer_box {
+    width: 92% !important;
+    max-width: 100%;
+  }
+
+  .collection_title,
+  .followerTab_title {
+    width: 92% !important;
+    max-width: 100%;
+  }
+
+  .title_box h2,
+  .collection_title h2,
+  .followerTab_title h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+}

@@ -68,6 +68,26 @@
     font-size: 2rem;
 }
 
+@media screen and (max-width: 48rem) {
+    .subscribe_box{
+        width: 92%;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 4rem 0;
+    }
+
+    .subscribe_box_left h2{
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+
+    .subscribe_box_left_input{
+        width: 100%;
+        padding: 1rem 1.25rem;
+        margin-top: 1.5rem;
+    }
+}
+
 @media screen and (min-device-width:320px) and (max-device-width:768px){
     .subscribe_box{
         width: 90%;

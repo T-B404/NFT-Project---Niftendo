@@ -4,6 +4,21 @@
     background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.sideBar_logo{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.sideBar_brandname{
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--icons-color);
 }
 
 .sideBar_closeBtn{

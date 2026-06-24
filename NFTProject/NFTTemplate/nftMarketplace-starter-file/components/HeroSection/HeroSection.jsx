@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 // INTERNAL IMPORT
 import Style from './HeroSection.module.css'
@@ -7,6 +8,8 @@ import {Button} from '../componentindex'
 import images from '../../img'
 
 const HeroSection = () => {
+  const router = useRouter()
+
   return (
     <div className={Style.heroSection}>
         <div className={Style.heroSection_box}>
@@ -16,7 +19,10 @@ const HeroSection = () => {
                     Discover the most outstanding NTFs in all topics of life. Creative
                     your NTFs and sell them
                 </p>
-                <Button btnName='Start your search'/>
+                <Button
+                  btnName='Start your search'
+                  handleClick={() => router.push('/search')}
+                />
             </div>
             <div className={Style.heroSection_box_right}>
                 <Image
@@ -24,6 +30,8 @@ const HeroSection = () => {
                     alt='Hero Section'
                     width={600}
                     height={600}
+                    className={Style.heroSection_img}
+                    priority
                 />
             </div>
         </div>
